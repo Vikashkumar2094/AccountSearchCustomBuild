@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="Account Search">
+        <c-account-frame onsearchaccountevent={searchAccountEventHandler}></c-account-frame>
+    </lightning-card>
+    <lightning-card title="Accounts">
+        <c-account-search-result search-text={searchText}></c-account-search-result>
+    </lightning-card>
+</template>
